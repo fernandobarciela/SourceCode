@@ -1,0 +1,143 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta charset="utf-8">
+<title>Trabajo Práctico 1 - Source Code - Fernando Barciela</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!--ESTILOS-->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="themes/Caquita.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+
+<!--SCRIPTS-->
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<!--------------------------------------------SECCION-1-------------------------------------------->
+<div id="seccion1" data-role="page">
+<!--Header-->
+<header data-role="header"></header>
+<!-- Fin Header-->
+
+<!--Contenido-->
+<main class="ui-content">
+<img id="logo" src="img/Logo.png" alt="MultiCode Source Editor"/>
+<form action="#seccion2" method="get">
+<label for="id" class="ui-hidden-accessible">Team Viewer ID</label>
+<input type="text" name="id" id="login-id" placeholder="Team Viewer ID" required data-mini="true">
+
+<label for="password" class="ui-hidden-accessible">Password</label>
+<input type="password" data-clear-btn="false" name="password" id="login-password" placeholder="Password" autocomplete="off" data-mini="true" required>
+
+<label for="login" class="ui-hidden-accessible">Login</label>
+<button type="submit" id="login-submit" class="ui-mini ui-btn-inline ui-btn-icon-left ui-icon-user ui-btn ui-btn-a"><a href="#seccion2">Login</a></button>
+</form>
+</main>
+<!--Fin-Contenido-->
+
+<!--Footer-->
+<footer data-role="footer" data-position= "fixed"></footer>
+<!--Fin-Footer-->
+</div>
+
+<!--------------------------------------------SECCION-2-------------------------------------------->
+<div id="seccion2" data-role="page">
+<!--Header-->
+<header data-role="header">
+<a href="#" class="ui-btn-right ui-btn ui-btn-a ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-user ui-btn-icon-notext">Usuario</a>
+<p>Fernando.B</p>
+</header>
+<!--Fin-Header-->
+
+<!--Contenido-->
+<main class="ui-content">
+<img id="logo" src="img/Logo.png" alt="MultiCode Source Editor"/>
+<form>
+<label for="buscar" class="ui-hidden-accessible">Buscar</label>
+<input type="search" name="buscar" id="buscar" data-mini="true" placeholder="Buscar Archivos...">
+</form>
+
+<div id="botones-busqueda" data-role="navbar" data-mini="true">
+<ul>
+<li><a href="#seccion3" data-transition="slide" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-refresh ui-btn-a">Reanudar</a></li>
+<li><a href="#seccion3" data-transition="slide" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-edit ui-btn-a">Nuevo</a></li>
+<li><a href="#seccion3" data-transition="slide" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-action ui-btn-a">Abrir</a></li>
+</ul>
+</div>
+</main>
+<!--Fin-Contenido-->
+
+<!--Footer-->
+<footer data-role="footer" data-position="fixed">
+</footer>
+</div>
+<!--Fin-Footer-->
+
+<!--------------------------------------------SECCION-3-------------------------------------------->
+<div id="seccion3" data-role="page">
+<!--Panel-Lateral-->
+<div data-role="panel" id="panel-lateral" data-dismissible="false" data-position="right" data-display="push" data-theme="b">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis nec risus nec ultrices. Maecenas sit amet lectus laoreet, vulputate elit vel, condimentum erat. Cras in velit non lectus iaculis laoreet. Maecenas elementum neque mattis, tristique diam sed, euismod dui. Vivamus viverra quis urna eu finibus. Vestibulum nec vehicula orci, id euismod libero. Sed tristique non tortor vel</p>
+<a href="#seccion3" data-transition="slide" data-rel="close" class="ui-shadow ui-btn ui-btn-a ui-btn-icon-left ui-icon-delete">Cerrar</a>
+</div>
+
+<!--Header-->
+<header data-role="header">
+<a href="#seccion2" data-transition="slide" data-direction="reverse" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-carat-l ui-btn-icon-notext">Atrás</a>
+<h1>C:\Users\Fernando\Documents\GitHub\Tp1\Estilos.css</h1>
+<a href="#panel-lateral" data-transition="none" class="ui-btn-right ui-btn ui-btn-a ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-bars ui-btn-icon-notext">Save</a>
+</header>
+<!--Fin-Header-->
+
+<!--Contenido-->
+<main class="ui-content">
+<form>
+<label for="codigo" class="ui-hidden-accessible">Codigo</label>
+<textarea name="codigo" id="formulario-codigo">
+
+#logo{
+display:block;
+width:246px;
+height:52px;
+margin:0 auto !important;
+margin-top:100px !important;
+margin-bottom:100px !important;
+}
+
+form{
+margin:0px !important;
+width:246px;
+height:52px;
+}
+
+.ui-input-text{
+width:80%;
+margin:0 auto !important;
+margin-bottom:20px !important;
+padding:0px;
+}
+</textarea>
+</form>
+</main>
+<!--Fin-Contenido-->
+
+<!--Footer-->
+<footer data-role="footer"  data-position="fixed">
+<nav data-role="navbar" class="ui-body-b ui-body">
+<ul>
+<li><a href="#" data-icon="edit" class="ui-btn-a">Editar</a></li>
+<li><a href="#" data-icon="check" class="ui-btn-a">Guardar</a></li>
+<li><a href="#" data-icon="plus" class="ui-btn-a">Más</a></li>
+</ul>
+</nav>
+</footer>
+<!--Fin-Footer-->
+
+</div>
+<!--Fin-Panel-Lateral-->
+</div>
+</body>
+</html>

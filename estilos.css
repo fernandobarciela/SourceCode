@@ -1,0 +1,152 @@
+/*--------------------------------------------SECCION-1--------------------------------------------*/
+
+#seccion1 header{
+display:none;
+height:60px;
+}
+
+.ui-page{
+background:#609BBF !important;
+}
+
+.ui-content{
+width:100%;
+margin:0px;
+padding:0px;
+}
+
+#logo{
+display:block;
+width:246px;
+height:52px;
+margin:0 auto !important;
+margin-top:100px !important;
+margin-bottom:100px !important;
+}
+
+form{
+margin:0px !important;
+}
+
+.ui-input-text{
+width:80%;
+margin:0 auto !important;
+margin-bottom:20px !important;
+padding:0px;
+}
+
+.ui-input-search{
+width:72%;
+margin:0 auto !important;
+margin-bottom:20px !important;
+padding:0px;
+}
+
+#login-submit{
+display:block;
+margin:0 auto !important;
+width:100px;
+}
+
+#login-submit a{
+display:block;
+text-decoration:none;
+color:#ffffff;
+}
+
+.ui-corner-all{
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+}
+
+#seccion1 footer{
+display:none;
+height:60px;
+}
+
+/*--------------------------------------------SECCION-2--------------------------------------------*/
+#seccion2 header{
+height:60px;
+background-color:#609BBF !important;
+border:none !important;
+}
+
+#seccion2 header a{
+background-color:#609BBF !important;
+border:none !important;
+margin-right:20px !important;
+margin-top:8px !important;
+}
+
+#seccion2 header p{
+float:right;
+margin-right:60px !important;
+color:#ffffff;
+text-shadow:none !important;
+font-weight:bold;
+font-size:13px;
+margin-top:20px;
+}
+
+#seccion2 footer{
+display:none;
+height:60px;
+}
+
+#botones-busqueda{
+width:82%;
+margin:0px;
+padding:0px;
+margin:0 auto !important;
+}
+
+#botones-busqueda a{
+margin:0 auto !important;
+}
+
+/*--------------------------------------------SECCION-3--------------------------------------------*/
+#seccion3, #seccion3 main, .ui-panel-wrapper{
+background-color:#ffffff !important;
+}
+
+#seccion3 header{
+height:60px;
+background-color:#609BBF !important;
+border:none !important;
+}
+
+#seccion3 header a{
+background-color:#609BBF !important;
+border:none !important;
+margin-right:20px !important;
+margin-top:8px !important;
+}
+
+#seccion3 header h1{
+color:#ffffff;
+text-shadow:none !important;
+padding-top:20px !important;
+}
+
+#panel-lateral a{
+width:30%;
+}
+
+#formulario-codigo{
+min-height: 100%;
+height: 100%;
+width: 100%;
+position: absolute;
+top: 60;
+left: 0;
+border:none;
+z-index:-1;
+}
+
+#seccion3 footer{
+height:60px;
+background-color:#609BBF !important;
+border:none !important;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "edu.maimonides.SourceCode"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Source Code</name>
+
+    <description>
+        Aplicacion para probar el config.xml</description>
+
+    <author href="https://fernando.barciela.com" email="fernando.barciela@gmail.com">
+        Fernando Barciela 
+    </author>
+	
+<icon src="drawable-ldpi/appicon.png" gap:platform="android" gap:qualifier="ldpi" />
+<icon src="drawable-mdpi/appicon.png" gap:platform="android" gap:qualifier="mdpi" />
+<icon src="drawable-hdpi/appicon.png" gap:platform="android" gap:qualifier="hdpi" />
+<icon src="drawable-xhdpi/appicon.png" gap:platform="android" gap:qualifier="xhdpi" />
+<icon src="drawable-xxhdpi/appicon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+<icon src="drawable-xxxhdpi/appicon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
+
+
+<gap:splash src="res-long-land-ldpi/default.png" gap:platform="android" gap:qualifier="ldpi" />
+<gap:splash src="res-long-land-mdpi/default.png" gap:platform="android" gap:qualifier="mdpi" />
+<gap:splash src="res-long-land-hdpi/default.png" gap:platform="android" gap:qualifier="hdpi" />
+<gap:splash src="res-long-land-xhdpi/default.png" gap:platform="android" gap:qualifier="xhdpi" />
+<gap:splash src="res-long-land-xxxhdpi/default.png" gap:platform="android" gap:qualifier="fr-xhdpi" />
+<gap:splash src="res-long-port-xxhdpi/default.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
+<gap:splash src="res-long-land-xxhdpi/default.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
+
+</widget>
